@@ -6,7 +6,8 @@ function peskyrealm_post_types() {
       'supports' => array(
         'title', 
         'editor',
-        'excerpts'
+        'excerpt',
+        'custom-fields'
       ),
       'rewrite' => array(
         'slug' => 'events'
