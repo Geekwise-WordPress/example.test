@@ -17,5 +17,3 @@ function peskyrealm_features() {
 }
 
 add_action('after_setup_theme', 'peskyrealm_features');
-
-?>
