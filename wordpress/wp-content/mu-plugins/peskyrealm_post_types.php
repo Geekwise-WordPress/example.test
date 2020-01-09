@@ -1,10 +1,13 @@
 <?php 
 
-// to customize register_post_types, just google and use codex
-
 function peskyrealm_post_types() {
   register_post_type('event', array(
     'labels' => array(
+      'supports' => array(
+        'title', 
+        'editor',
+        'excerpts'
+      ),
       'rewrite' => array(
         'slug' => 'events'
       ),
