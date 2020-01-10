@@ -7,7 +7,6 @@ function peskyrealm_post_types() {
         'title', 
         'editor',
         'excerpt',
-        'custom-fields'
       ),
       'rewrite' => array(
         'slug' => 'events'
@@ -25,3 +24,5 @@ function peskyrealm_post_types() {
 }
 
 add_action('init', 'peskyrealm_post_types');
+
+?>
