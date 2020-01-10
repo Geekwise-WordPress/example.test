@@ -31,7 +31,7 @@ hostname_aliases:
 #
 version: latest
 lang: en_US
-title: Example Test
+title: PeskyRealm
 multisite: false
 rewrite_structure: /archives/%postname%
 
